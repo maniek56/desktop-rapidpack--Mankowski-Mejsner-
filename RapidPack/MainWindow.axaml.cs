@@ -9,3 +9,9 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 }
+
+public class ParcelCalculator
+{
+    public static void CalculatorPrice()
+    {}
+}
