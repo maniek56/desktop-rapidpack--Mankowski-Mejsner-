@@ -52,6 +52,10 @@
                     <ComboBoxItem>Paleta</ComboBoxItem>
                 </ComboBox>
                 
+                <WrapPanel Orientation="Horizontal">
+                    <CheckBox Content="Usługa Ekspresowa (+15zł)" Margin="0,0,15,0" />
+                </WrapPanel>
+                
             </StackPanel>   
         </Grid>       
 </Window>
