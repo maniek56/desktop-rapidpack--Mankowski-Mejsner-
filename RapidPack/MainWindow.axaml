@@ -32,6 +32,12 @@
                          Watermark="Tu wpisz głębokość!" TextAlignment="Center" TextWrapping="Wrap">
                 </TextBox>
                 
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial"
+                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
+                </TextBlock>
+                <TextBox Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                         Watermark="Tu wpisz wage!" TextAlignment="Center" TextWrapping="Wrap" >
+                </TextBox> 
             </Grid>    
         </Grid>        
 </Window>
