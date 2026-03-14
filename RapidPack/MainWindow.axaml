@@ -42,6 +42,16 @@
             
             <StackPanel Grid.Row="2" Spacing="10" Margin="0,0,0,15">
                 
+                <TextBlock Text="Opcje dodatkowe " FontSize="25" FontFamily="Arial" FontWeight="SemiBold" Margin="0, 0, 0, 10"
+                           HorizontalAlignment="Center" TextWrapping="Wrap"/>
+                
+                <TextBlock Text="Wybierz typ przesyłki: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextWrapping="Wrap"/>
+                <ComboBox HorizontalAlignment="Stretch" SelectedIndex="0">
+                    <ComboBoxItem>Standardowa</ComboBoxItem>
+                    <ComboBoxItem>Ostrożnie (szkło)</ComboBoxItem>
+                    <ComboBoxItem>Paleta</ComboBoxItem>
+                </ComboBox>
+                
             </StackPanel>   
         </Grid>       
 </Window>
