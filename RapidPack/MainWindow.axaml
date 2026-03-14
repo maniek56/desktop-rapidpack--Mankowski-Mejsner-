@@ -63,5 +63,12 @@
                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                     Background="DeepSkyBlue" Foreground="White" Margin="0,0,0,25">
             </Button>
+            
+            <StackPanel>
+                <TextBlock Text="Podsumowanie wyceny:" FontWeight="Bold" 
+                           Margin="0,0,0,10" Foreground="Black">
+                </TextBlock>
+            </StackPanel>
+            
         </Grid>       
 </Window>
