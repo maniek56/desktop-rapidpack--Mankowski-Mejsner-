@@ -57,5 +57,11 @@
                 </WrapPanel>
                 
             </StackPanel>   
+            
+            <Button Grid.Row="3" Content="WYCEŃ PACZKĘ" Height="50" 
+                    FontSize="20" FontWeight="SemiBold" HorizontalAlignment="Stretch" 
+                    HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+                    Background="DeepSkyBlue" Foreground="White" Margin="0,0,0,25">
+            </Button>
         </Grid>       
 </Window>
