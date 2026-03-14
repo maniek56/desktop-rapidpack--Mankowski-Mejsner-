@@ -8,7 +8,7 @@
         MaxHeight="800" MaxWidth="500"
         WindowStartupLocation="CenterScreen">
         
-        <Grid Margin="20" RowDefinitions="Auto, Auto"  >
+        <Grid Margin="20" RowDefinitions="Auto, Auto, Auto"  >
                 <TextBlock Grid.Row="0" 
                            Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
                            FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
@@ -39,5 +39,9 @@
                          Watermark="Tu wpisz wage!" TextAlignment="Center" TextWrapping="Wrap" >
                 </TextBox> 
             </Grid>    
-        </Grid>        
+            
+            <StackPanel Grid.Row="2" Spacing="10" Margin="0,0,0,15">
+                
+            </StackPanel>   
+        </Grid>       
 </Window>
