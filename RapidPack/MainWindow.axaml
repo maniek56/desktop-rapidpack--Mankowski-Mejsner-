@@ -9,6 +9,10 @@
         WindowStartupLocation="CenterScreen">
         
         <Grid Margin="20" RowDefinitions="Auto"  >
-                
+                <TextBlock Grid.Row="0" 
+                           Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
+                           FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
+                           HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center">
+                </TextBlock>
         </Grid>        
 </Window>
