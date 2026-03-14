@@ -1369,19 +1369,19 @@
     ]
   },
   "packageFolders": {
-    "/home/igor/.nuget/packages/": {}
+    "C:\\Users\\micro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack/RapidPack.csproj",
+      "projectUniqueName": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj",
       "projectName": "RapidPack",
-      "projectPath": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack/RapidPack.csproj",
-      "packagesPath": "/home/igor/.nuget/packages/",
-      "outputPath": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack/obj/",
+      "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj",
+      "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/igor/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -1448,7 +1448,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/igor/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\micro\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

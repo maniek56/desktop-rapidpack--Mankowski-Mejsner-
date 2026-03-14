@@ -2362,19 +2362,19 @@
     ]
   },
   "packageFolders": {
-    "/home/igor/.nuget/packages/": {}
+    "C:\\Users\\micro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack.Tests/RapidPack.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
       "projectName": "RapidPack.Tests",
-      "projectPath": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack.Tests/RapidPack.Tests.csproj",
-      "packagesPath": "/home/igor/.nuget/packages/",
-      "outputPath": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack.Tests/obj/",
+      "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
+      "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/igor/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2386,8 +2386,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack/RapidPack.csproj": {
-              "projectPath": "/home/igor/RiderProjects/desktop-rapidpack--Mankowski-Mejsner-/RapidPack/RapidPack.csproj"
+            "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj": {
+              "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj"
             }
           }
         }
@@ -2445,7 +2445,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/home/igor/.dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\micro\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
