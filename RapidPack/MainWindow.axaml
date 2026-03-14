@@ -8,11 +8,16 @@
         MaxHeight="800" MaxWidth="500"
         WindowStartupLocation="CenterScreen">
         
-        <Grid Margin="20" RowDefinitions="Auto"  >
+        <Grid Margin="20" RowDefinitions="Auto, Auto"  >
                 <TextBlock Grid.Row="0" 
                            Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
                            FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
                            HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center">
                 </TextBlock>
+            
+            <Grid Grid.Row="1" ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto" Margin="0, 0, 0, 25">
+                
+                
+            </Grid>    
         </Grid>        
 </Window>
