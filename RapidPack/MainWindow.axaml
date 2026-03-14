@@ -18,6 +18,13 @@
             <Grid Grid.Row="1" ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto" Margin="0, 0, 0, 25">
                 
                 
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Szerokość (cm): " FontSize="20" FontFamily="Arial"
+                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
+                </TextBlock>
+                <TextBox Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                         Watermark="Tu wpisz szerokość!" TextAlignment="Center" TextWrapping="Wrap">
+                </TextBox>
+                
             </Grid>    
         </Grid>        
 </Window>
