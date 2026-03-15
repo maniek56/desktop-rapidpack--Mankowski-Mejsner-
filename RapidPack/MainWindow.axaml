@@ -20,28 +20,28 @@
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Wysokość (cm): " FontSize="20" FontFamily="Arial"
                            VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBox Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                <TextBox  x:Name="HeightTextBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz wysokość!" TextAlignment="Center" TextWrapping="Wrap">
                 </TextBox>
                 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Szerokość (cm): " FontSize="20" FontFamily="Arial"
                            VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBox Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                <TextBox x:Name="WidthTextBox" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz szerokość!" TextAlignment="Center" TextWrapping="Wrap">
                 </TextBox>
                 
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Głębokość (cm): " FontSize="20" FontFamily="Arial"
                            VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBox Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                <TextBox x:Name="DepthTextBox" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz głębokość!" TextAlignment="Center" TextWrapping="Wrap">
                 </TextBox>
                 
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial"
                            VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBox Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                <TextBox x:Name="WageTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz wage!" TextAlignment="Center" TextWrapping="Wrap" >
                 </TextBox> 
             </Grid>    
