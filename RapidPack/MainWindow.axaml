@@ -52,19 +52,19 @@
                            HorizontalAlignment="Center" TextWrapping="Wrap"/>
                 
                 <TextBlock Text="Wybierz typ przesyłki: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextWrapping="Wrap"/>
-                <ComboBox HorizontalAlignment="Stretch" SelectedIndex="0">
+                <ComboBox x:Name="PackageTypeComboBox" HorizontalAlignment="Stretch" SelectedIndex="0">
                     <ComboBoxItem>Standardowa</ComboBoxItem>
                     <ComboBoxItem>Ostrożnie (szkło)</ComboBoxItem>
                     <ComboBoxItem>Paleta</ComboBoxItem>
                 </ComboBox>
                 
                 <WrapPanel Orientation="Horizontal">
-                    <CheckBox Content="Usługa Ekspresowa (+15zł)" Margin="0,0,15,0" />
+                    <CheckBox x:Name="ExpressCheckBox"  Content="Usługa Ekspresowa (+15zł)" Margin="0,0,15,0" />
                 </WrapPanel>
                 
             </StackPanel>   
             
-            <Button Grid.Row="3" Content="WYCEŃ PACZKĘ" Height="50" 
+            <Button x:Name="ResultButton" Grid.Row="3" Content="WYCEŃ PACZKĘ" Height="50" 
                     FontSize="20" FontWeight="SemiBold" HorizontalAlignment="Stretch" 
                     HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
                     Background="DeepSkyBlue" Foreground="White" Margin="0,0,0,25">
