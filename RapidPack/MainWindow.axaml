@@ -70,12 +70,11 @@
                     Background="DeepSkyBlue" Foreground="White" Margin="0,0,0,25">
             </Button>
             
-            <Border Grid.Row="4" BorderThickness="5" CornerRadius="10" Padding="15" Background="White">
-                <StackPanel>
-                    <TextBlock Text="Podsumowanie wyceny:" FontWeight="Bold" 
-                               Margin="0,0,0,10" Foreground="Black">
-                    </TextBlock>
-                </StackPanel>
-            </Border>
+            <StackPanel Grid.Row="4">
+                <TextBlock x:Name="SummaryTextBlock" FontWeight="Bold" Margin="0,0,0,10" 
+                           TextWrapping="Wrap" TextAlignment="Center">
+                </TextBlock>
+            </StackPanel>
+            
         </Grid>       
 </Window>
