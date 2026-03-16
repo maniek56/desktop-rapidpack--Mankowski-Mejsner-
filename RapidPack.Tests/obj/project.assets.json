@@ -2362,19 +2362,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\micro\\.nuget\\packages\\": {}
+    "C:\\Users\\pokeh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\pokeh\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
       "projectName": "RapidPack.Tests",
-      "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
-      "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\obj\\",
+      "projectPath": "C:\\Users\\pokeh\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\RapidPack.Tests.csproj",
+      "packagesPath": "C:\\Users\\pokeh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pokeh\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pokeh\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
@@ -2386,8 +2386,8 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj": {
-              "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj"
+            "C:\\Users\\pokeh\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj": {
+              "projectPath": "C:\\Users\\pokeh\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj"
             }
           }
         }
@@ -2402,7 +2402,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
       "net10.0": {
@@ -2445,7 +2445,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\micro\\.dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Users\\pokeh\\.dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
