@@ -18,7 +18,7 @@ public partial class MainWindow : Window
         if (string.IsNullOrWhiteSpace(HeightTextBox.Text) ||
             string.IsNullOrWhiteSpace(WidthTextBox.Text) ||
             string.IsNullOrWhiteSpace(DepthTextBox.Text) ||
-            string.IsNullOrWhiteSpace(WageTextBox.Text))
+            string.IsNullOrWhiteSpace(WeightTextBox.Text))
         {
             SummaryTextBlock.Text = "Wpisz wszystkie dane!";
             return;
@@ -29,7 +29,7 @@ public partial class MainWindow : Window
             double height = double.Parse(HeightTextBox.Text);
             double width = double.Parse(WidthTextBox.Text);
             double depth = double.Parse(DepthTextBox.Text);
-            double weight = double.Parse(WageTextBox.Text);
+            double weight = double.Parse(WeightTextBox.Text);
 
             bool express = ExpressCheckBox.IsChecked == true;
 

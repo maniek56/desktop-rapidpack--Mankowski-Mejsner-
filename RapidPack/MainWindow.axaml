@@ -41,7 +41,7 @@
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial"
                            VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap">
                 </TextBlock>
-                <TextBox x:Name="WageTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
+                <TextBox x:Name="WeightTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz wage!" TextAlignment="Center" TextWrapping="Wrap" >
                 </TextBox> 
             </Grid>    
