@@ -6,9 +6,11 @@
         x:Class="RapidPack.MainWindow"
         Title="System Wyceny Paczek"
         MaxHeight="700" MaxWidth="500"
-        WindowStartupLocation="CenterScreen">
+        WindowStartupLocation="CenterScreen"
+        RequestedThemeVariant="Dark">
         
-        <Grid Margin="20" RowDefinitions="Auto, Auto, Auto, Auto, Auto" Background="black" >
+        
+    <Grid Margin="20" RowDefinitions="Auto, Auto, Auto, Auto, Auto" Background="Black" >
                 <TextBlock Grid.Row="0" 
                            Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
                            FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
@@ -17,32 +19,32 @@
             
             <Grid Grid.Row="1" ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto" Margin="0, 0, 0, 25">
                 
-                <TextBlock Grid.Row="0" Grid.Column="0" Text="Wysokość (cm): " FontSize="20" FontFamily="Arial"
-                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
+                <TextBlock Grid.Row="0" Grid.Column="0" Text="Wysokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center"
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
                 </TextBlock>
                 <TextBox  x:Name="HeightTextBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
-                         Watermark="Tu wpisz wysokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White">
+                         Watermark="Tu wpisz wysokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
-                <TextBlock Grid.Row="1" Grid.Column="0" Text="Szerokość (cm): " FontSize="20" FontFamily="Arial" 
-                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
+                <TextBlock Grid.Row="1" Grid.Column="0" Text="Szerokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
                 </TextBlock>
                 <TextBox x:Name="WidthTextBox" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
-                         Watermark="Tu wpisz szerokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White">
+                         Watermark="Tu wpisz szerokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="Głębokość (cm): " FontSize="20" FontFamily="Arial"
-                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
+                <TextBlock Grid.Row="2" Grid.Column="0" Text="Głębokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
                 </TextBlock>
                 <TextBox x:Name="DepthTextBox" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
-                         Watermark="Tu wpisz głębokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White">
+                         Watermark="Tu wpisz głębokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
-                <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial"
-                           VerticalAlignment="Center" Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
+                <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
                 </TextBlock>
                 <TextBox x:Name="WeightTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
-                         Watermark="Tu wpisz wage!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White">
+                         Watermark="Tu wpisz wagę!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox> 
             </Grid>    
             
@@ -52,7 +54,7 @@
                            HorizontalAlignment="Center" TextWrapping="Wrap" Foreground="White"/>
                 
                 <TextBlock Text="Wybierz typ przesyłki: " FontSize="15" FontFamily="Arial" FontWeight="SemiBold" TextWrapping="Wrap" Foreground="White"/>
-                <ComboBox x:Name="PackageTypeComboBox" HorizontalAlignment="Stretch" SelectedIndex="0" Foreground="White">
+                <ComboBox x:Name="PackageTypeComboBox" HorizontalAlignment="Stretch" SelectedIndex="0" Foreground="White" Background="DimGray">
                     <ComboBoxItem>Standardowa</ComboBoxItem>
                     <ComboBoxItem>Ostrożnie (szkło)</ComboBoxItem>
                     <ComboBoxItem>Paleta</ComboBoxItem>
