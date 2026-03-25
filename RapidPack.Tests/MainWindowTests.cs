@@ -10,4 +10,13 @@ public class MainWindowTests
       var window = new MainWindow();
       Assert.NotNull(window);
    }
+   [Fact]
+   public void StandardPackage_BasicPrice_CalculatedCorrectly()
+   {
+      var calc = new ParcelCalculator();
+
+      double result = calc.CalculatorPrice(10, 10, 10, 5, false, "standard");
+
+      Assert.Equal(20, result); // 10 + (5*2)
+   }
 }
