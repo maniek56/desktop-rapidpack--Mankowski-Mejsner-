@@ -1374,11 +1374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj",
+      "projectUniqueName": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack\\RapidPack\\RapidPack.csproj",
       "projectName": "RapidPack",
-      "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\RapidPack.csproj",
+      "projectPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack\\RapidPack\\RapidPack.csproj",
       "packagesPath": "C:\\Users\\micro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack--Mankowski-Mejsner-\\RapidPack\\obj\\",
+      "outputPath": "C:\\Users\\micro\\RiderProjects\\desktop-rapidpack\\RapidPack\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\micro\\AppData\\Roaming\\NuGet\\NuGet.Config"
