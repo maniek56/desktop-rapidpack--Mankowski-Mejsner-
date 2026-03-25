@@ -39,4 +39,13 @@ public class MainWindowTests
 
       Assert.Equal(35, result); // 10 + (5*2) + 15
    }
+   [Fact]
+   public void LargeDimensions_IncreasePriceBy50Percent()
+   {
+      var calc = new ParcelCalculator();
+
+      double result = calc.CalculatorPrice(100, 60, 10, 5, false, "standard");
+
+      Assert.Equal(30, result); // (10 + 10) * 1.5 = 30
+   }
 }
