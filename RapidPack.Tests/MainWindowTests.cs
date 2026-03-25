@@ -21,4 +21,14 @@ public class MainWindowTests
 
       Assert.Equal(20, result); // 10 + (5*2)
    }
+   [Fact]
+   public void FragilePackage_AddsExtraCost()
+   {
+      var calc = new ParcelCalculator();
+
+      double result = calc.CalculatorPrice(10, 10, 10, 5, false, "ostroznie");
+
+      Assert.Equal(30, result); // 10 + 10 + (5*2)
+   }
+
 }
