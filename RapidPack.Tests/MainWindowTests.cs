@@ -1,4 +1,6 @@
 ﻿using Avalonia.Headless.XUnit;
+using Xunit;
+using RapidPack;
 
 namespace RapidPack.Tests;
 

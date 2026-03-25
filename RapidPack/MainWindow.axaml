@@ -8,40 +8,43 @@
         MaxHeight="700" MaxWidth="500"
         WindowStartupLocation="CenterScreen"
         RequestedThemeVariant="Dark">
+    
         
         
-    <Grid Margin="20" RowDefinitions="Auto, Auto, Auto, Auto, Auto" Background="Black" >
-                <TextBlock Grid.Row="0" 
-                           Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
-                           FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
-                           HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center" Foreground="White">
-                </TextBlock>
+        
+    <Grid Margin="20" RowDefinitions="Auto, Auto, Auto, Auto, Auto">
+            <TextBlock Grid.Row="0" 
+                       Text="Kalkulator Przesyłek" FontSize="35" FontWeight="Bold"
+                       FontFamily="Arial" LetterSpacing="3" Margin="0,0,0,20"
+                       HorizontalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center" Foreground="White">
+                
+            </TextBlock>
             
             <Grid Grid.Row="1" ColumnDefinitions="Auto, *" RowDefinitions="Auto, Auto, Auto, Auto" Margin="0, 0, 0, 25">
                 
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Wysokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center"
-                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
+                           Margin="0,0,15,10" TextWrapping="Wrap" >
                 </TextBlock>
                 <TextBox  x:Name="HeightTextBox" Grid.Row="0" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz wysokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Szerokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
-                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
                 </TextBlock>
                 <TextBox x:Name="WidthTextBox" Grid.Row="1" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz szerokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
                 <TextBlock Grid.Row="2" Grid.Column="0" Text="Głębokość (cm): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
-                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
                 </TextBlock>
                 <TextBox x:Name="DepthTextBox" Grid.Row="2" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz głębokość!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
                 </TextBox>
                 
                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Waga (kg): " FontSize="20" FontFamily="Arial" VerticalAlignment="Center" 
-                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White"  Background="Black">
+                           Margin="0,0,15,10" TextWrapping="Wrap" Foreground="White">
                 </TextBlock>
                 <TextBox x:Name="WeightTextBox" Grid.Row="3" Grid.Column="1" Margin="0,0,0,10" CornerRadius="30"
                          Watermark="Tu wpisz wagę!" TextAlignment="Center" TextWrapping="Wrap" Foreground="White" Background="DimGray">
@@ -63,7 +66,6 @@
                 <WrapPanel Orientation="Horizontal">
                     <CheckBox x:Name="ExpressCheckBox"  Content="Usługa Ekspresowa (+15zł)" Margin="0,0,0,20" Foreground="White"/>
                 </WrapPanel>
-                
             </StackPanel>   
             
             <Button x:Name="ResultButton" Grid.Row="3" Content="WYCEŃ PACZKĘ" Height="50" 
