@@ -48,4 +48,13 @@ public class MainWindowTests
 
       Assert.Equal(30, result); // (10 + 10) * 1.5 = 30
    }
+   
+   [Fact]
+   public void WeightAboveLimit_ThrowsException()
+   {
+      var calc = new ParcelCalculator();
+
+      Assert.Throws<Exception>(() =>
+         calc.CalculatorPrice(10, 10, 10, 31, false, "standard"));
+   }
 }
